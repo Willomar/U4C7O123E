@@ -43,10 +43,11 @@ O projeto foi simulado no Wokwi com o seguinte diagrama de conexões:
   "dependencies": {}
 }
 🎥 Vídeo Explicativo
+
 Confira o vídeo explicativo do projeto:
-[Vídeo Explicativo
-](https://youtu.be/aj70q1q8hks
-)
+
+(https://youtu.be/aj70q1q8hks)
+
 🚀 Funcionamento do Projeto
 O projeto realiza as seguintes operações:
 
