@@ -18,6 +18,8 @@ Confira o vídeo explicativo do projeto:
 
 (https://youtu.be/aj70q1q8hks)
 
+---
+
 ##🚀 Funcionamento do Projeto
 
 O projeto realiza as seguintes operações:
