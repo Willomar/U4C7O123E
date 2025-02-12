@@ -39,32 +39,4 @@ Controle de Brilho do LED:
 O brilho do LED é controlado por PWM, variando de 0% (desligado) a 100% (brilho máximo) conforme a posição do servomotor. 💡
 
 ---
-## 🔌 Diagrama de Conexões
 
-O projeto foi simulado no Wokwi com o seguinte diagrama de conexões:
-
-```json
-{
-  "version": 1,
-  "author": "Willomar Sares dos Santos",
-  "editor": "wokwi",
-  "parts": [
-    { "type": "wokwi-pi-pico", "id": "pico", "top": -3.15, "left": -6, "attrs": {} },
-    { "type": "wokwi-servo", "id": "servo1", "top": 17.2, "left": 115.2, "attrs": {} },
-    {
-      "type": "wokwi-led",
-      "id": "led2",
-      "top": 111.6,
-      "left": -159.4,
-      "attrs": { "color": "red" }
-    }
-  ],
-  "connections": [
-    [ "servo1:GND", "pico:GND.8", "black", [ "h-9.6", "v-38.4", "h-39.6" ] ],
-    [ "servo1:V+", "pico:3V3", "red", [ "h-28.8", "v-28.7", "h-20.4" ] ],
-    [ "servo1:PWM", "pico:GP22", "blue", [ "h-9.6", "v29", "h-20.4" ] ],
-    [ "pico:GP12", "led2:A", "green", [ "h0" ] ],
-    [ "led2:C", "pico:GND.1", "black", [ "v0", "h-18.8", "v0", "h0", "v0", "h0", "v0" ] ]
-  ],
-  "dependencies": {}
-}
